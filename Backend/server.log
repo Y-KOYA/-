@@ -1,0 +1,180 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (6 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (6 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (6 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/13 - 04:26:43 | 500 |     420.528µs |      172.18.0.1 | GET      "/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (6 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (6 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (6 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (6 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/13 - 05:03:34 | 500 |     273.647µs |      172.18.0.1 | GET      "/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+<<<<<<< HEAD
+[GIN] 2024/06/13 - 06:35:58 | 500 |     1.98175ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:36:39 | 500 |    1.558541ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:43:42 | 500 |    1.535834ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:43:54 | 500 |    1.460541ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 08:08:30 | 500 |   12.003709ms |    192.168.65.1 | GET      "/"
+=======
+[GIN] 2024/06/13 - 06:35:48 | 500 |    4.691333ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:36:23 | 500 |     2.07325ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:44:58 | 500 |    4.110709ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:47:41 | 500 |    1.457417ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:50:50 | 500 |    1.060209ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:50:54 | 500 |         494µs |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:52:24 | 500 |    1.739292ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:52:41 | 500 |     541.292µs |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 06:54:43 | 500 |    3.405834ms |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 07:00:18 | 500 |     730.375µs |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 07:00:25 | 500 |     246.542µs |    192.168.65.1 | GET      "/"
+[GIN] 2024/06/13 - 07:18:45 | 500 |    6.072042ms |    192.168.65.1 | POST     "/money"
+[GIN] 2024/06/13 - 07:18:46 | 500 |     229.167µs |    192.168.65.1 | POST     "/money"
+[GIN] 2024/06/13 - 07:18:47 | 500 |     230.375µs |    192.168.65.1 | POST     "/money"
+[GIN] 2024/06/13 - 07:18:48 | 500 |     183.333µs |    192.168.65.1 | POST     "/money"
+[GIN] 2024/06/13 - 07:18:51 | 500 |       110.5µs |    192.168.65.1 | POST     "/money"
+>>>>>>> af7e1603c51dae894f66c367dd40c84f8a0f5970
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /user                     --> main.main.func3 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/14 - 01:18:21 | 404 |      82.828µs |      172.19.0.1 | GET      "/"
+[GIN] 2024/06/14 - 01:22:45 | 404 |      188.08µs |      172.19.0.1 | GET      "/"
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /user                     --> main.main.func3 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /user                     --> main.main.func3 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /money                    --> main.main.func1 (5 handlers)
+[GIN-debug] POST   /money                    --> main.main.func2 (5 handlers)
+[GIN-debug] GET    /user                     --> main.main.func3 (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN] 2024/06/14 - 02:44:07 | 404 |      45.467µs |      172.19.0.1 | GET      "/"
+[GIN] 2024/06/14 - 02:45:11 | 404 |       2.404µs |      172.19.0.1 | GET      "/"
+[GIN] 2024/06/14 - 02:46:03 | 404 |       2.615µs |      172.19.0.1 | GET      "/"
+[GIN] 2024/06/14 - 02:46:03 | 404 |       2.114µs |      172.19.0.1 | GET      "/favicon.ico"
+[GIN] 2024/06/14 - 02:56:37 | 401 |    7.113803ms |      172.19.0.1 | GET      "/money"
+[GIN] 2024/06/14 - 03:01:38 | 401 |      95.261µs |      172.19.0.1 | GET      "/money"
+[GIN] 2024/06/14 - 03:01:44 | 401 |      17.894µs |      172.19.0.1 | POST     "/money"
+[GIN] 2024/06/14 - 03:01:51 | 401 |      20.169µs |      172.19.0.1 | GET      "/money"
+[GIN] 2024/06/14 - 03:10:13 | 404 |       2.095µs |      172.19.0.1 | GET      "/money/user_name=hanako"
+[GIN-debug] redirecting request 301: /money --> /money?user_name=hanako
+[GIN] 2024/06/14 - 03:10:19 | 401 |      45.005µs |      172.19.0.1 | GET      "/money?user_name=hanako"
+[GIN-debug] redirecting request 301: /money --> /money?user_id=hanako
+[GIN] 2024/06/14 - 03:11:15 | 401 |      20.959µs |      172.19.0.1 | GET      "/money?user_id=hanako"
+[GIN-debug] redirecting request 301: /money --> /money?user_id=1
+[GIN] 2024/06/14 - 03:11:21 | 401 |      15.891µs |      172.19.0.1 | GET      "/money?user_id=1"
+[GIN] 2024/06/14 - 03:11:32 | 404 |       1.713µs |      172.19.0.1 | GET      "/money/1"
+[GIN-debug] redirecting request 301: /money --> /money?user_name
+[GIN] 2024/06/14 - 03:12:31 | 401 |      17.534µs |      172.19.0.1 | GET      "/money?user_name"
+[GIN-debug] redirecting request 301: /money --> /money?users.name=hanako
+[GIN] 2024/06/14 - 03:15:03 | 401 |      20.789µs |      172.19.0.1 | GET      "/money?users.name=hanako"
+[GIN-debug] redirecting request 301: /money --> /money?users.name=hanako
+[GIN] 2024/06/14 - 03:15:05 | 401 |      17.623µs |      172.19.0.1 | GET      "/money?users.name=hanako"
+[GIN] 2024/06/14 - 03:15:58 | 401 |      17.824µs |      172.19.0.1 | GET      "/money?users.name"
+[GIN] 2024/06/14 - 03:16:12 | 401 |      21.149µs |      172.19.0.1 | GET      "/money?user_name=hanako"
+[GIN] 2024/06/14 - 04:43:04 | 404 |     850.566µs |      172.19.0.1 | GET      "/"
+[GIN] 2024/06/14 - 04:43:19 | 404 |       6.242µs |      172.19.0.1 | GET      "/"
+[GIN] 2024/06/14 - 05:39:55 | 404 |     477.888µs |      172.19.0.1 | GET      "/"

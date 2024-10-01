@@ -1,0 +1,39 @@
+# frontend/Dockerfile
+# Node.js lts image
+FROM node:lts
+# AS build-stage
+
+# 作業ディレクトリを設定
+WORKDIR /usr/src/app
+
+# package.json と package-lock.json をコピー
+COPY package*.json ./
+
+# 依存関係をインストール
+RUN npm install
+
+# ポート 5173 を公開
+EXPOSE 5173
+
+# アプリケーションのソースコードをコピー
+COPY . .
+
+# アプリケーションをビルド
+RUN npm run build
+
+# 起動
+CMD ["npm", "run", "dev"]
+
+# Stage 2: サーブ
+# FROM nginx:alpine AS production-stage
+
+# ビルドステージからビルドされたファイルを Nginx の公開ディレクトリにコピー
+# COPY --from=build-stage /app/dist /usr/share/nginx/html
+
+# ポート 80 を公開
+# EXPOSE 80
+
+# Nginx をフォアグラウンドで実行
+# CMD ["nginx", "-g", "daemon off;"]
+
+

@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "module": "commonjs", // Jestでの実行に適したモジュール形式
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      }
+    },
+    "include": ["src/**/*", "tests/**/*"]
+  }
+  

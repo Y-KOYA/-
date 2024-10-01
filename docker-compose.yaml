@@ -1,0 +1,77 @@
+version: '3'
+services:
+  db:
+    image: postgres:16
+    container_name: db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: section7db
+    volumes:
+    - db-data:/var/lib/postgresql/data
+    ports:
+      - "5434:5434"
+    restart: always
+    networks:
+      - section7
+  pgadmin4:
+    image: dpage/pgadmin4:8.4
+    depends_on:
+      - db
+    environment:
+      PGADMIN_DEFAULT_EMAIL: brackcat09@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: password
+    ports:
+      - "80:80"
+    volumes:
+      - pgadmin4-data:/var/lib/pgadmin
+# volumes:
+#   db-data:
+#   pgadmin4-data:
+    networks:
+      - section7
+
+  backend:
+    container_name: backend
+    build:
+      context: ./Backend
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./Backend:/usr/src/app
+    working_dir: /usr/src/app
+    tty: true
+    command: go run main.go
+    # command: bash
+    networks:
+      - section7
+    depends_on:
+      - db
+
+  frontend:
+    container_name: frontend
+    build:
+      context: ./FrontEnd
+      dockerfile: Dockerfile
+    tty: true
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./Frontend:/usr/src/app
+      - /usr/src/app/node_modules
+    working_dir: /usr/src/app
+    command: npm run dev
+    networks:
+      - section7
+    depends_on:
+      - backend
+
+networks:
+  section7:
+    name: mse
+    external: true
+
+volumes:
+  db-data:
+  pgadmin4-data:
